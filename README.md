@@ -8,6 +8,10 @@ This repository is based on the ATWINC3400 driver v1.1.0 available in ASF3. I ha
 
 # Usage instructions
 
+- If the instructions below are confusing, you can reference the following resources:
+    - Tutorial/example code: https://github.com/davepruitt/samd_tutorials/blob/main/README.md
+    - Tutorial video: https://www.youtube.com/watch?v=8QXpHtQB0DE
+
 1. In Atmel Start (https://start.atmel.com/), configure your project as you typically would using an ATWINC1500 module. This is important. Do not forget to add the "wifi middleware" to your project (which is the ATWINC1500 driver), and configure all of the correct pins. Remember to configure your clocks, and the SPI instance should be clocked at 48 MHz.
 
 2. In Atmel Start, you MUST make sure the following configuration options are set:
