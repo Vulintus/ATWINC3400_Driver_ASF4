@@ -6,6 +6,8 @@ In a similar vein, Microchip has also made the curious decision to not support t
 
 This repository is based on the ATWINC3400 driver v1.1.0 available in ASF3. I have also used the ATWINC1500 driver available in ASF4 to help in the conversion process to ASF4.
 
+If you are interested in incorporating the ATWINC3400 into an Arduino project, we have also ported the ATWINC3400 driver to Arduino. You can find it here: https://github.com/Vulintus/ATWINC3400_Driver_Arduino
+
 # Usage instructions
 
 - If the instructions below are confusing, you can reference the following resources:
